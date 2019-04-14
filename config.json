@@ -1,0 +1,4 @@
+{
+  "prefix": "meb!",
+  "token": process.env.BOT_TOKEN
+}
