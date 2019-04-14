@@ -5,7 +5,7 @@ module.exports.run = async (bot, message, args) => {
 
 
     let money = db.startsWith(`money_${message.guild.id}`, { sort: '.data'})
-    let content = "";
+    let content = "test";
 
     for (let i = 0; i < money.length; i++) {
         let user = bot.users.get(money[i].ID.split('_')[2]).username
